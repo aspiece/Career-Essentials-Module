@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "source_root": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module",
+  "created_at": "2026-09-21T15:31:21.416527+00:00",
+  "files": [
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\assets\\lesson.js",
+      "relative_path": "assets\\lesson.js",
+      "extension": ".js",
+      "bytes": 1813,
+      "sha256": "8a804cd4a7d6e2d301d21f903e648fb7461e6fee35fe5a41322526621e62c6f0"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\assets\\styles.css",
+      "relative_path": "assets\\styles.css",
+      "extension": ".css",
+      "bytes": 4748,
+      "sha256": "e2f463201ba393a64395ef0f042793ed722b250e28e1777135260b279ad66385"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\course-manifest.json",
+      "relative_path": "course-manifest.json",
+      "extension": ".json",
+      "bytes": 2589,
+      "sha256": "57836ca7999279f79cc33075ecee4be5d0d946ff689a7f6243fd6d6edfd157bb"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\index.html",
+      "relative_path": "index.html",
+      "extension": ".html",
+      "bytes": 2115,
+      "sha256": "7faaa0cd94926436342a0350c1f6daec4dcf10927bfee32510f6cf052bf8be58"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lesson-2-blueprint.md",
+      "relative_path": "lesson-2-blueprint.md",
+      "extension": ".md",
+      "bytes": 4145,
+      "sha256": "09cd3fb5c200794977b7aa99fab2d04dfa5157424859b911c8b5bf78d1388f18"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-1.html",
+      "relative_path": "lessons\\lesson-1.html",
+      "extension": ".html",
+      "bytes": 751,
+      "sha256": "aa75597200258473d31c2e2686828b128125d1140f663e54415456a0bcaad3f9"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-2.html",
+      "relative_path": "lessons\\lesson-2.html",
+      "extension": ".html",
+      "bytes": 14743,
+      "sha256": "439b1fd8ec4164cdf068d532a2e63391a32b671d2fe30bcb78f19fb8585bb81c"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-3.html",
+      "relative_path": "lessons\\lesson-3.html",
+      "extension": ".html",
+      "bytes": 718,
+      "sha256": "0063ad91f6e50baf3aad851346e10282f752e82dd12c6d8d960c345271e10de2"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-4.html",
+      "relative_path": "lessons\\lesson-4.html",
+      "extension": ".html",
+      "bytes": 710,
+      "sha256": "5cb49ab4c39be3fc48b2641fd4b94129c1b2a8da0781987659afe47b5b279596"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-5.html",
+      "relative_path": "lessons\\lesson-5.html",
+      "extension": ".html",
+      "bytes": 711,
+      "sha256": "f9001fc2226639688e8afe480a7f0fe980ba58645930e2102cbcc463c0a39ba5"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-6.html",
+      "relative_path": "lessons\\lesson-6.html",
+      "extension": ".html",
+      "bytes": 720,
+      "sha256": "431a92d2555c94e79d5d156ef80aaf41418dc81e06160f9fdd643d16e1e5cffa"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-7.html",
+      "relative_path": "lessons\\lesson-7.html",
+      "extension": ".html",
+      "bytes": 711,
+      "sha256": "33f764ef7da33fa255aba6aa2c946a869ffdaa19c0edea8da9b7cc53a1890729"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\lessons\\lesson-8.html",
+      "relative_path": "lessons\\lesson-8.html",
+      "extension": ".html",
+      "bytes": 721,
+      "sha256": "7796c521a880c8d88a364a9739e3a4f129b370dc0f010f1d383770ffc82e8431"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\program-coverage.csv",
+      "relative_path": "program-coverage.csv",
+      "extension": ".csv",
+      "bytes": 622,
+      "sha256": "785dc923f339b618ca0d33cf905d169568e8fc4744457605c4c2746e66d5f5da"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\qa-report.md",
+      "relative_path": "qa-report.md",
+      "extension": ".md",
+      "bytes": 2597,
+      "sha256": "9663b28952a7bf790e489131e53f7585cab572fa0f396ab246d06b3d79bfbf01"
+    },
+    {
+      "path": "C:\\Users\\aspie\\OneDrive\\Documents\\ChatGPT\\Base Camp\\career-essentials-module\\source-inventory.json",
+      "relative_path": "source-inventory.json",
+      "extension": ".json",
+      "bytes": 5337,
+      "sha256": "cf1b7840f205225e1a18d755cd09dd5059903a916283b84b62359a34f87223a4"
+    }
+  ]
+}
