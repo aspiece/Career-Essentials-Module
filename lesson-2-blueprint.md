@@ -33,9 +33,9 @@ Students use the 7 Cs to make a workplace message understandable, actionable, an
 |---|---|---|---|---|---:|
 | 2.1 | Orient | Read targets and challenge. | Proposed addition | Program-neutral | 5 min |
 | 2.2 | Build knowledge | Watch video; answer three checks. | Selected video | Program-neutral | 10 min |
-| 2.3 | Model application | Choose a career field, view a matching workplace-message example, compare messages, and answer three checks. | 7 Cs framework | Learner-selected workplace example | 10 min |
-| 2.4 | Transfer | Use the selected career field to revise its vague workplace message, self-check the draft, compare it with an exemplar, and interactively identify four emphasized 7 Cs. | Proposed addition | Learner-selected workplace scenario | 15 min |
-| 2.5 | Assess | Complete the course quiz and enter a polished workplace message for scoring. | Proposed addition | Program-neutral | 8 min |
+| 2.3 | Model and guide | Read a career-specific fictional work order, compare its request with an accurate revision, explore optional annotations for all seven Cs, try one supported revision, and answer three checks. | 7 Cs framework; approved audit recommendations | Learner-selected worked example | 15 min |
+| 2.4 | Transfer | Use a different work order in the selected field, plan recipient/task, draft, review evidence, explain one C using an exact phrase, and compare a possible response before revising. | Approved audit recommendations | Distinct learner-selected practice task with all needed facts | 18 min |
+| 2.5 | Prepare submission | Review the same editable response and work-order facts, copy it into the assigned quiz, and follow explicit submission guidance. | Existing assessment and rubric | Saved career-specific draft | 8 min |
 
 ## Assessment
 
@@ -46,7 +46,7 @@ The website provides practice feedback. The course quiz assessment contains 10 q
 - Advance CTE, National Career Clusters Framework: Career Ready Practice, “Communicate clearly, effectively, and within reason.”
 - National Association of Colleges and Employers: Communication competency, including clear, organized communication and appropriate questions for supervisors and others.
 
-## Master instructional-design audit
+## Earlier instructional-design review (historical)
 
 | Review lane | Finding | Resolution |
 |---|---|---|
@@ -66,9 +66,50 @@ Semantic headings, keyboard-accessible controls, visible focus, direct video lin
 
 ## Completion directions
 
-Students use their completed planning and revision work to answer the course quiz, then enter their polished workplace message in the final-message question for scoring.
+Students use planning and evidence review as practice, then copy only their polished workplace message into the written-response question in the assigned course quiz. The website does not submit the quiz or record a grade. Students finish and submit the quiz in the course.
 
 ## Approval decision
 
 - Status: Built for preview
 - Approved exceptions: No final assessment link or mastery policy yet.
+
+## Applied instructional and UX audit recommendations · October 18, 2026
+
+### Source boundaries and authorization
+
+The user explicitly authorized applying `lesson-2-instructional-ux-audit.md`. Preserve the 7 Cs, existing learning objectives, media, branding, career choices, and final 2-point rubric. Rewrite the ambiguous formative items and add answer-specific feedback. New fictional work orders, annotations, guided revision, per-career draft persistence, and evidence-based self-review are within the authorized revision scope. No Google Form or repository was changed by this local implementation.
+
+### Model → supported practice → transfer
+
+The 17 existing pathways (16 career choices and Other) now contain separate model and practice records. Each provides a recipient, task, needed details, deadline, confirmation, and vague original request. Model annotations distinguish facts supplied for communication practice from certification of a technical procedure. All seven Cs are available in an optional explanation, with overlapping evidence explicitly allowed.
+
+The guided exercise adds only a missing deadline and reply to a short message. The independent work order changes the actual task, not merely the name of its worker. The Other pathway has complete, accessible workshop facts and does not require specialized career knowledge.
+
+### Application sequence and pacing
+
+| Activity | Learner action | Evidence | Time |
+|---|---|---|---:|
+| Choose/read | Choose a field and identify supplied facts in a new work order. | Complete fact set and separate task. | 3 min |
+| Plan | Name recipient and exact action. | Two short planning responses. | 2 min |
+| Draft | Write a useful message with the needed details. | One original draft; optional frame. | 5 min |
+| Review | Point to evidence for the communication criteria and explain one C. | Honest self-review; exact draft phrase plus explanation. | 4 min |
+| Compare/revise | Compare a possible response, make a revision, or explain why the draft already works. | Revised draft and short reflection. | 4 min |
+
+Total lesson estimate: 56 minutes (5 + 10 + 15 + 18 + 8). The model step includes optional definition/annotation support, a short writing exercise, and formative checks; its pacing has increased accordingly.
+
+### Feedback, draft safety, and accessibility
+
+- Formative checks have one keyed answer in an explicit context; every option has its own feedback. Choice-length spreads are 4, 1, 1, 2, 2, and 0 characters.
+- A blank draft cannot receive affirmative self-review feedback. Marking boxes establishes self-report only, not correctness or a score.
+- One-C evidence review checks presence and whether the quoted words appear in the current draft. Students and the instructor judge the reasoning.
+- Each career's work order ID, notes, draft, evidence, and reflection save together. Generic guided practice saves separately. Both draft editors show the same response. Changes of field preserve prior field work; reflection does not hide the comparison response.
+- Copying has a manual-selection fallback. Saving failures receive a truthful notice. Clear controls remove all local Lesson 2 practice deliberately, without touching quiz responses.
+- Step transitions focus the new heading. The final navigation action opens real submission guidance. Comparison borders distinguish Before/After, and cards fit their container at 320px.
+
+### Approval decision for this revision
+
+- Implementation: authorized by the user after the audit.
+- Independent source review: completed; three actionable findings repaired and tested.
+- Local preview: ready for user review.
+- Repository/hosted publishing of this revision: pending preview approval.
+- Detailed evidence and limitations: `lesson-2-revision-verification.md`.

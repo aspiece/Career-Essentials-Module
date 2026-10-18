@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": {
     "title": "Career Essentials: Skills for Workplace Success",
-    "purpose": "An eight-lesson asynchronous workplace-readiness module that follows the Base Camp Challenge Center experience.",
+    "purpose": "A seven-lesson workplace-readiness module connecting experiential activities to workplace skills; an earlier Lesson 8 placeholder is retained for reference.",
     "target_platform": "Static lesson website used within a course",
     "content_change_authority": "New instructional materials; source video concepts preserved and workplace scenarios are proposed additions.",
     "assumptions": [
@@ -10,23 +10,197 @@
       "The course quiz will contain the assessment and response directions.",
       "The Base Camp Effective Communication make-up assignment remains a separate required assignment for students who miss the visit."
     ],
-    "unresolved_questions": ["Assessment link, grading policy, and submission format have not yet been supplied."]
+    "unresolved_questions": [
+      "Assessment link, grading policy, and submission format have not yet been supplied."
+    ]
   },
-  "audience": {"grades": [11, 12], "reading_level_target": "7.0-8.5", "context": "career-and-technical-education"},
+  "audience": {
+    "grades": [
+      11,
+      12
+    ],
+    "reading_level_target": "7.0-8.5",
+    "context": "career-and-technical-education"
+  },
   "sources": [
-    {"title": "The 7 Cs of Communication", "locator": "https://www.youtube.com/watch?v=sYBw9-8eCuM", "type": "video", "role": "Lesson 2 primary media", "status": "Verified title and runtime; full transcript not retrieved."},
-    {"title": "Effective Communication Make-Up Assignment", "locator": "https://forms.gle/WY7KYPsiuiDaqauaA", "type": "Google Form", "role": "Required preliminary assignment for students who missed the related Base Camp module", "status": "Provided; content not inspected."},
-    {"title": "Advance CTE Career Ready Practices", "locator": "https://careertech.org/resource/career-ready-practices/", "type": "national CTE framework", "role": "Lesson 2 standards alignment", "status": "Reviewed 2026-09-21."},
-    {"title": "NACE Career Readiness Competencies: Communication", "locator": "https://www.naceweb.org/career-readiness/competencies/career-readiness-defined", "type": "national career-readiness framework", "role": "Lesson 2 standards alignment", "status": "Reviewed 2026-09-21."},
-    {"title": "Base Camp Make-Up Assignments", "locator": "User-provided course notes", "type": "course notes", "role": "Module sequence and make-up context", "status": "Provided."},
-    {"title": "Agile Methodology Module Lesson 1", "locator": "https://aspiece.github.io/Agile-Methodology-Module/lessons/lesson-1.html?step=1", "type": "reference website", "role": "Structural and interaction reference", "status": "Reviewed."}
+    {
+      "title": "The 7 Cs of Communication",
+      "locator": "https://www.youtube.com/watch?v=sYBw9-8eCuM",
+      "type": "video",
+      "role": "Lesson 2 primary media",
+      "status": "Verified title and runtime; full transcript not retrieved."
+    },
+    {
+      "title": "Effective Communication Make-Up Assignment",
+      "locator": "https://forms.gle/WY7KYPsiuiDaqauaA",
+      "type": "Google Form",
+      "role": "Required preliminary assignment for students who missed the related Base Camp module",
+      "status": "Provided; content not inspected."
+    },
+    {
+      "title": "Advance CTE Career Ready Practices",
+      "locator": "https://careertech.org/resource/career-ready-practices/",
+      "type": "national CTE framework",
+      "role": "Lesson 2 standards alignment",
+      "status": "Reviewed 2026-09-21."
+    },
+    {
+      "title": "NACE Career Readiness Competencies: Communication",
+      "locator": "https://www.naceweb.org/career-readiness/competencies/career-readiness-defined",
+      "type": "national career-readiness framework",
+      "role": "Lesson 2 standards alignment",
+      "status": "Reviewed 2026-09-21."
+    },
+    {
+      "title": "Base Camp Make-Up Assignments",
+      "locator": "User-provided course notes",
+      "type": "course notes",
+      "role": "Module sequence and make-up context",
+      "status": "Provided."
+    },
+    {
+      "title": "Agile Methodology Module Lesson 1",
+      "locator": "https://aspiece.github.io/Agile-Methodology-Module/lessons/lesson-1.html?step=1",
+      "type": "reference website",
+      "role": "Structural and interaction reference",
+      "status": "Reviewed."
+    },
+    {
+      "title": "How to Build Trust",
+      "locator": "https://winningwise.com/insights/how-to-build-trust-video/",
+      "type": "video and provider transcript",
+      "role": "Lesson 3 trust concepts",
+      "status": "Provider transcript reviewed 2026-10-18; local reading is a paraphrased summary."
+    },
+    {
+      "title": "How to Set SMART Goals",
+      "locator": "https://www.youtube.com/watch?v=OXA6gfzFA24",
+      "type": "video",
+      "role": "Lesson 3 SMART concepts",
+      "status": "Embedded player and captions observed 2026-10-18; full caption accuracy not certified."
+    },
+    {
+      "title": "Ethics and Accountability Make-Up Assignment",
+      "locator": "https://forms.gle/jUe2mpQCvoJbDPLx6",
+      "type": "Google Form",
+      "role": "Lesson 3 preliminary make-up activity",
+      "status": "Verified destination title: Ethics and Accountability Module. Locked mode requires managed Chromebooks; instructor access/alternative route added. No Form setting changed."
+    },
+    {
+      "title": "Lesson 3 assessment bank and scoring guide",
+      "locator": "lesson-3-assessment.md",
+      "type": "local assessment",
+      "role": "Lesson 3 response requirements and reviewed items",
+      "status": "Revised in repository 2026-10-18; separate unpublished Google Form retains its earlier version."
+    }
   ],
-  "canonical_programs": {"source_url": "https://gci.geneseeisd.org/Programs", "retrieved_at": "", "verified": false, "programs": []},
-  "design": {"reference_url": "https://aspiece.github.io/Agile-Methodology-Module/lessons/lesson-1.html?step=1", "audited_at": "2026-09-21", "tokens": {"primary": "#005A70", "secondary": "#2980B9", "accent": "#E67E22", "success": "#188754", "background": "#F7FAFB", "font": "Arial, Helvetica, sans-serif"}},
-  "lessons": [{"number": 2, "title": "Workplace Communication: The 7 Cs", "status": "built for preview", "duration_minutes": 48}],
-  "assessments": [{"lesson": 2, "title": "Workplace Communication Assessment", "artifact": "lesson-2-assessment.md", "format": "10 questions worth 2 points each", "total_points": 20, "final_response": "One polished workplace message scored for audience, task, actionable details, and professional communication."}],
-  "media": [{"title": "The 7 Cs of Communication", "accessibility": "Embedded player, direct link, and concise instructional text alternative; provider captions require final verification."}],
+  "canonical_programs": {
+    "source_url": "https://gci.geneseeisd.org/Programs",
+    "retrieved_at": "",
+    "verified": false,
+    "programs": []
+  },
+  "design": {
+    "reference_url": "https://aspiece.github.io/Agile-Methodology-Module/lessons/lesson-1.html?step=1",
+    "audited_at": "2026-09-21",
+    "tokens": {
+      "primary": "#005A70",
+      "secondary": "#2980B9",
+      "accent": "#E67E22",
+      "success": "#188754",
+      "background": "#F7FAFB",
+      "font": "Arial, Helvetica, sans-serif"
+    }
+  },
+  "lessons": [
+    {
+      "number": 2,
+      "title": "Workplace Communication: The 7 Cs",
+      "status": "approved for repository release on 2026-10-18",
+      "duration_minutes": 56,
+      "blueprint": "lesson-2-blueprint.md"
+    },
+    {
+      "number": 3,
+      "title": "Trust & Goal Setting",
+      "status": "approved for repository release on 2026-10-18",
+      "duration_minutes": 59,
+      "blueprint": "lesson-3-blueprint.md",
+      "revision_scope": "SMART scaffold plus audit repairs: final-draft evidence, accountability explanation, annotated career drafts, targeted feedback, usable completion, and revised repository assessment bank."
+    }
+  ],
+  "assessments": [
+    {
+      "lesson": 2,
+      "title": "Workplace Communication Assessment",
+      "artifact": "lesson-2-assessment.md",
+      "format": "10 questions worth 2 points each",
+      "total_points": 20,
+      "final_response": "One polished workplace message scored for audience, task, actionable details, and professional communication."
+    },
+    {
+      "lesson": 3,
+      "title": "Trust & Goal Setting Assessment",
+      "artifact": "lesson-3-assessment.md",
+      "format": "10 questions worth 2 points each",
+      "total_points": 20,
+      "final_response": "Workplace action, measure, deadline, and realistic accountability plan.",
+      "delivery_status": "Repository bank revised; separate Google Form not synchronized by repository publishing."
+    }
+  ],
+  "media": [
+    {
+      "title": "The 7 Cs of Communication",
+      "accessibility": "Embedded player, direct link, and concise instructional text alternative; provider captions require final verification."
+    },
+    {
+      "title": "How to Build Trust",
+      "url": "https://player.vimeo.com/video/757649699",
+      "accessibility": "Instructional reading summary and external complete provider transcript; full caption quality unverified."
+    },
+    {
+      "title": "How to Set SMART Goals",
+      "url": "https://www.youtube.com/watch?v=OXA6gfzFA24",
+      "accessibility": "Instructional reading summary, direct video link, and player captions observed; not a full transcript."
+    }
+  ],
   "graphics": [],
-  "attribution": [{"item": "The 7 Cs of Communication", "creator": "Mind Tools", "url": "https://www.youtube.com/watch?v=sYBw9-8eCuM"}],
-  "approvals": {"source_fidelity": "User selected the video and authorized lesson construction.", "blueprint": "User authorized construction after the five-step Lesson 2 blueprint.", "preview": null, "live_publish": null}
+  "attribution": [
+    {
+      "item": "The 7 Cs of Communication",
+      "creator": "Mind Tools",
+      "url": "https://www.youtube.com/watch?v=sYBw9-8eCuM"
+    },
+    {
+      "item": "How to Build Trust",
+      "creator": "WinningWise",
+      "url": "https://winningwise.com/insights/how-to-build-trust-video/"
+    },
+    {
+      "item": "How to Set SMART Goals",
+      "creator": "Mindtools Kineo",
+      "url": "https://www.youtube.com/watch?v=OXA6gfzFA24"
+    }
+  ],
+  "approvals": {
+    "source_fidelity": "User selected the video and authorized lesson construction.",
+    "blueprint": "User authorized construction after the five-step Lesson 2 blueprint.",
+    "preview": null,
+    "live_publish": null,
+    "lesson_3_scaffold": {
+      "local_revision": "User requested SMART goal scaffolding and instructed continuation.",
+      "preview": null,
+      "live_publish": null
+    },
+    "lesson_2_revision": {
+      "scope": "User approved applying the instructional and UX audit recommendations.",
+      "preview": null,
+      "live_publish": null
+    },
+    "release_2026_10_18": {
+      "scope": "User approved audit recommendations and explicitly requested all pending lesson changes be pushed to the repository.",
+      "preview_and_publish": "User explicitly authorized implementation and repository publishing in the same request; no additional approval requested.",
+      "google_forms": "No separate form mutation or publishing included."
+    }
+  }
 }

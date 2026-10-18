@@ -1,0 +1,12 @@
+.message-workshop label[for],.work-order{display:block;margin-top:1rem}
+.message-workshop textarea,#guided-revision{display:block;max-width:100%;min-height:6rem;resize:vertical}
+.message-workshop #revision,.message-workshop #final-message{min-height:12rem}
+.message-workshop p[id$=hint]{margin-top:.4rem;color:var(--muted)}
+.lesson-help{padding:.85rem 1rem;margin:1rem 0;background:#f2f7f8;border:1px solid var(--line);border-radius:6px}
+.lesson-help summary{color:var(--teal);font-weight:700;cursor:pointer}
+.work-order{background:#f2f7f8;border:1px solid var(--line);border-left:4px solid var(--blue);padding:1rem}
+.work-order dl{margin:0}.work-order dt{font-weight:700;margin-top:.7rem}.work-order dd{margin:.15rem 0 .6rem;overflow-wrap:anywhere}
+.evidence-table{max-width:100%}.evidence-table th,.evidence-table td{overflow-wrap:anywhere}
+.message-save-status{font-size:.9rem;color:var(--muted)}
+.message-workshop button{max-width:100%;white-space:normal;text-align:left}
+#career-exemplar[hidden],#model-annotations[hidden],#submission-steps[hidden]{display:none}
